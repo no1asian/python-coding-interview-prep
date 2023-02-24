@@ -1,5 +1,5 @@
 
-# Data Class
+## Data Class
 
 ```
 from dataclasses import dataclass
@@ -12,6 +12,8 @@ class Product:
 sample = Product()
 sample.width = 100
 ```
+
+## 
 
 ----------------
   
