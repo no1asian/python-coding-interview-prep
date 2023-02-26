@@ -38,8 +38,25 @@ deq.reverse()
 ----
 
 ## Priority Queue
+```
 from queue import PriorityQueue
+que = PriorityQueue()
+que.put(4)
+que.put(1)
+que.get()
+que.get()
+```
 
+---
+
+## Heap
+```
+import heapq
+h = []
+heapq.heappush(h, value)
+heapq.heappop(h)
+
+```
 ----------------
   
   
