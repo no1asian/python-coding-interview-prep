@@ -19,19 +19,20 @@ from collections import dequeue
 
 deq = deque()
 
-### Add element to the end
-deq.append(0)
+# Add element to the end
+deq.append(4)
 
-### Pop element from the end
-deq.pop()
-
-### Add element to the start
-deq.appendleft(10)
-
-### Pop element from the start
+# Pop element from the start
 deq.popleft()
 
+# Pop element from the end
+deq.pop()
 
+# Add element to the start
+deq.appendleft()
+
+# Reverse
+deq.reverse()
 ```
 
 ----
