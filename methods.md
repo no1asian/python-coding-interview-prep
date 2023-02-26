@@ -10,5 +10,5 @@ max_val = sys.maxsize
 min_val = -sys.maxsize
 ```
 
-
-
+## Sort
+sorted(s, reverse=True)
