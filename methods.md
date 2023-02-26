@@ -21,4 +21,11 @@ max(array)
 sorted(s, reverse=True)
 ```
 
+## Char type check
+```
+test.isalpha()
+test.isnumeric()
+test.isalnum()
 
+test.isdigit()
+```
