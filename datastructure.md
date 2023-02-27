@@ -2,8 +2,16 @@
 ## List 
 ```
 data = list()
+
+# Add item
 data.append(x)
+
+# Remove last item
 data.pop()
+
+# Remove first item
+data.pop(0)
+
 data.sort()
 data.reverse()
 data.count(x)
