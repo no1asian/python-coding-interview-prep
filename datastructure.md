@@ -1,4 +1,35 @@
 
+## List 
+```
+data = list()
+data.append(x)
+data.pop()
+data.sort()
+data.reverse()
+data.count(x)
+```
+
+
+## Dict 
+```
+data = dict()
+data.keys()
+data.values()
+data.items()
+data.get(x)
+data.clear()
+
+x in data 
+```
+
+## Set
+```
+data = set()
+data.add(x)
+data.update(x)
+data.remove(x)
+```
+
 ## Data Class
 
 ```
