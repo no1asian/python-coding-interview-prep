@@ -54,7 +54,7 @@ sample.width = 100
 
 ## Dequeue
 ```
-from collections import dequeue
+from collections import deque
 
 deq = deque()
 
