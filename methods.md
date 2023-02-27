@@ -29,3 +29,10 @@ test.isalnum()
 
 test.isdigit()
 ```
+
+## Slicing
+```
+# reverse
+deliveries = deliveries[::-1]
+
+```
