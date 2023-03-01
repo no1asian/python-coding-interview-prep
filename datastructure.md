@@ -1,4 +1,10 @@
 
+## Initialize m * n matrix
+```
+m, n = 3, 2
+metric = [[0 for col in range(n)] for row in range(m)]
+```
+
 ## List 
 ```
 data = list()
