@@ -6,6 +6,13 @@ metric = [[0 for col in range(n)] for row in range(m)]
 ```
 
 ## List 
+### methods
+- append()
+- sort(), sort(reverse=True)
+- reverse()
+- insert()
+- count()
+- remove()
 ```
 data = list()
 
@@ -39,9 +46,16 @@ x in data
 ## Set
 ```
 data = set()
+data = {}
 data.add(x)
 data.update(x)
 data.remove(x)
+```
+
+## tuple
+```
+data = tuple()
+data = ()
 ```
 
 ## Data Class
