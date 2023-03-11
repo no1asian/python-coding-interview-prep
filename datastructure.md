@@ -10,6 +10,7 @@ metric = [[0 for col in range(n)] for row in range(m)]
 - append()
 - sort(), sort(reverse=True)
 - reverse()
+- extend()    # adds the specified list elements (or any iterable) to the end of the current list
 - insert()
 - count()
 - remove()
