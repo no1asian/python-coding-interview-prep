@@ -16,6 +16,12 @@ array = [7, 1, 4, 2, 5]
 max(array)
 ```
 
+## range  (reverse)
+```
+for i in range(len(arr) - 1, 0, -1):
+  pass
+```
+
 ## Sort, Sorted
   - sort() function returns nothing and changes the original sequence
   - sorted() function creates a new sequence type containing a sorted version of the given sequence
