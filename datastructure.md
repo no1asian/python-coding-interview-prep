@@ -8,6 +8,7 @@ metric = [[0 for col in range(n)] for row in range(m)]
 ## List 
 ### methods
 - append()
+- pop()   # pop() -> O(1), pop(0) -> O(n) Use deque
 - sort(), sort(reverse=True)
 - reverse()
 - extend()    # adds the specified list elements (or any iterable) to the end of the current list
