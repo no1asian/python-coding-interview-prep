@@ -120,6 +120,35 @@ heapq.heappop(h)
 ```
 
 ---
+# collections
+
+## defaultdict
+```
+from collections import
+
+# 기본값이 0인 정수 사전 생성
+int_dict = defaultdict(int)
+
+# 값을 추가하지 않았는데도 기본값이 0으로 설정됨
+print(int_dict["a"])  # 출력: 0
+
+# 값 추가
+int_dict["a"] += 1
+print(int_dict["a"])  # 출력: 1
+
+# 기본값이 빈 리스트인 사전 생성
+list_dict = defaultdict(list)
+
+# 값 추가
+list_dict["fruits"].append("apple")
+list_dict["fruits"].append("banana")
+
+print(list_dict["fruits"])  # 출력: ['apple', 'banana']
+
+# 값이 없는 키 접근 시, 기본값으로 빈 리스트가 설정됨
+print(list_dict["vegetables"])  # 출력: []
+
+```
 
 ## Counter
 most_common()
