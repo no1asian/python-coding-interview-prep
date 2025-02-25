@@ -1,3 +1,16 @@
+### Data class
+- __init__()가 자동으로 생성됨
+- __repr__()도 자동 구현됨
+- 속성이 자동으로 정의됨
+```
+from dataclasses import dataclass
+
+@dataclass
+class Book:
+    title: str
+    author: str
+```
+
 ### Access to nested functions variable scoping
 ```
 class Solution:
