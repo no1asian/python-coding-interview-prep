@@ -6,8 +6,11 @@ s.lower(), s.upper()
 
 ## Max Size
 ```
-max_val = sys.maxsize
-min_val = -sys.maxsize
+max_value = float('inf')
+min_value = float('-inf')
+
+print(max_value)
+print(min_value)
 ```
 
 ## Max value in the list
